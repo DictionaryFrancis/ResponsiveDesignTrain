@@ -5,8 +5,6 @@ body{
     color: #707070;
 }
 
-
-
 h1{
     font-size: 3rem;
     text-align: center;
@@ -56,4 +54,17 @@ img{
     background-color: #312614;
     padding: 1em;
     color: #fff;
+}
+
+@media (max-width: 600px){
+    .main-column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
 }
