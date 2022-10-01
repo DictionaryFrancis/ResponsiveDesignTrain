@@ -13,7 +13,6 @@ header{
     width: 95%;
     max-width: 1000px;
     margin: 0 auto;
-    border: solid red 1px;
 }
 
 .container-nav{
@@ -74,6 +73,10 @@ nav a:focus{
     color: #707070;
 }*/
 
+/* =========
+    MEDIA QUERY
+    ======== */
+
 @media (max-width: 980px){
     .container-nav{
         flex-direction: column;
@@ -90,3 +93,8 @@ nav a:focus{
         text-align: center;
     }
 }
+
+/* =========
+    MAIN - LAYOUT
+    ======== */
+
